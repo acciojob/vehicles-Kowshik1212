@@ -27,6 +27,11 @@ public class Vehicle {
     public int getCurrentSpeed(){
         return this.currentSpeed;
     }
+
+    public String getName() {
+        return name;
+    }
+
     public void stop(){
 
         System.out.println("stop method called - The vehicle is stopped");
